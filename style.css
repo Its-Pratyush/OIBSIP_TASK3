@@ -1,0 +1,156 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(180,102,39,1) 0%, rgba(45,87,96,1) 100%);
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    background-color: #4caf50;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+
+  .input-task {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 1.5rem;
+  }
+  
+  .input-box {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    background-color: #f0f0f0;
+    font-size: 16px; 
+  }
+  
+  .btn-add {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-add:hover {
+    background-color: #45a049;
+  }
+  
+
+  .task-list,
+  .completed-task-list {
+    margin-top: 20px;
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+  }
+  
+  .content:hover {
+    border-color: #4caf50;
+  }
+  
+  .text {
+    flex-grow: 1;
+    padding: 6px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    margin-right: 10px;
+  }
+  
+  .action {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .btn1, .btn2 {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn1 {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .btn1:hover {
+    background-color: #45a049;
+  }
+  
+  .btn2 {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .btn2:hover {
+    background-color: #d32f2f;
+  }
+  
+  .done {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+
+
+
+
+  
+
+  
+
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  }
+  
